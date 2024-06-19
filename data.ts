@@ -1,0 +1,96 @@
+import { Item } from './model';
+
+export const data: Item[] = [
+  {
+    type: 'task',
+    title: 'Clean the house',
+    time: { day: 1, hour: 15, minute: 30 },
+    duration: 60,
+    location: 'kitchen',
+    done: true,
+  },
+  {
+    type: 'event',
+    title: 'Dentist',
+    time: { day: 1, hour: 10, minute: 30 },
+    duration: 90,
+    location: 'dentist office,Stechovice ',
+  },
+
+  {
+    type: 'event',
+    title: 'Meeting',
+    time: { day: 1, hour: 14, minute: 20 },
+    duration: 30,
+    location: 'company meeting room',
+  },
+
+  {
+    type: 'event',
+    title: 'Yoga lesson',
+    time: { day: 1, hour: 17, minute: 30 },
+    duration: 90,
+    location: 'Svet pod Palmovkou',
+  },
+  {
+    type: 'task',
+    title: 'Buy groceries',
+    time: { day: 2, hour: 7, minute: 30 },
+    duration: 30,
+    location: 'store',
+    done: true,
+  },
+  {
+    type: 'task',
+    title: 'Submit report',
+    time: { day: 2, hour: 9, minute: 20 },
+    duration: 20,
+    location: 'office',
+    done: false,
+  },
+  {
+    type: 'event',
+    title: 'Concert of classical music',
+    time: { day: 2, hour: 20, minute: 0o0 },
+    duration: 120,
+    location: 'Klementinum',
+  },
+  {
+    type: 'task',
+    title: 'Workout',
+    time: { day: 3, hour: 8, minute: 0o0 },
+    duration: 45,
+    location: 'gym',
+    done: true,
+  },
+  {
+    type: 'event',
+    title: 'Conference',
+    time: { day: 3, hour: 10, minute: 30 },
+    location: 'hotel Esplanade',
+    duration: 240,
+  },
+  {
+    type: 'event',
+    title: 'Cinema - THe Shape of Water',
+    time: { day: 3, hour: 20, minute: 0o0 },
+    duration: 123,
+    location: 'Municipal Library, Prague 1',
+  },
+  {
+    type: 'task',
+    title: 'Study for exam',
+    time: { day: 4, hour: 10, minute: 30 },
+    duration: 120,
+    location: 'study',
+    done: false,
+  },
+  {
+    type: 'task',
+    title: 'Update resume',
+    time: { day: 8, hour: 13, minute: 30 },
+    done: false,
+    duration: 30,
+    location: 'study',
+  },
+];

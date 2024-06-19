@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "strict": true,
     "lib": ["es2020", "dom"],
     "module": "es2020",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["./*.ts"]
 }

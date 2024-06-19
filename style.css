@@ -32,9 +32,11 @@ header {
   display: flex;
   margin-left: 4rem;
 
-  & > * {
-    flex: 1;
-  }
+
+}
+
+.calendar-header>* {
+  flex: 1;
 }
 
 .day-head {
@@ -69,7 +71,7 @@ header {
 
 .cell {
   height: 60px;
-  border: 1px solid #ccc;
+  border: 1px solid #efeded;
 }
 
 .items-view {
@@ -86,10 +88,11 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   align-items: start;
-  
-  & > * {
-    grid-area: 1 / 1 / 1 / 1;
-  }
+
+}
+
+.day-column>* {
+  grid-area: 1 / 1 / 1 / 1;
 }
 
 .calendar-item {
@@ -101,7 +104,7 @@ header {
 }
 
 .item-event {
-  background-color: #52B2C0;
+  background-color: plum;
 }
 
 .item-task {
