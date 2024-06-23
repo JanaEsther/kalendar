@@ -63,12 +63,21 @@ export const data: Item[] = [
     location: 'gym',
     done: true,
   },
+
   {
     type: 'event',
     title: 'Conference',
     time: { day: 3, hour: 10, minute: 30 },
     location: 'hotel Esplanade',
     duration: 240,
+  },
+  {
+    type: 'task',
+    title: 'Workout',
+    time: { day: 3, hour: 16, minute: 0o0 },
+    duration: 120,
+    location: 'gym',
+    done: true,
   },
   {
     type: 'event',
@@ -87,10 +96,48 @@ export const data: Item[] = [
   },
   {
     type: 'task',
-    title: 'Update resume',
-    time: { day: 8, hour: 13, minute: 30 },
+    title: 'Coding homework',
+    time: { day: 4, hour: 14, minute: 30 },
     done: false,
     duration: 30,
     location: 'study',
+  },
+
+  {
+    type: 'task',
+    title: 'Study math',
+    time: { day: 5, hour: 9, minute: 30 },
+    done: false,
+    duration: 45,
+    location: 'study',
+  },
+  {
+    type: 'event',
+    title: 'Python Course',
+    time: { day: 5, hour: 13, minute: 30 },
+    duration: 360,
+    location: 'study',
+  },
+  {
+    type: 'event',
+    title: 'Python Course',
+    time: { day: 6, hour: 8, minute: 30 },
+    duration: 240,
+    location: 'study',
+  },
+
+  {
+    type: 'event',
+    title: 'Python Course',
+    time: { day: 6, hour: 13, minute: 30 },
+    duration: 360,
+    location: 'study',
+  },
+  {
+    type: 'event',
+    title: 'Dance evening',
+    time: { day: 6, hour: 20, minute: 0o0 },
+    duration: 240,
+    location: 'Žižkovská Tančírna',
   },
 ];
